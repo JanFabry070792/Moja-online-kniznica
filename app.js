@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // delete books
   list.addEventListener('click', (e) => {
-    if (e.target.className == 'delete') {
+    if (e.target.className == 'Vymazať') {
       const li = e.target.parentElement;
       li.parentNode.removeChild(li);
     }
